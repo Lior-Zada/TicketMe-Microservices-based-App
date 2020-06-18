@@ -1,0 +1,9 @@
+# one time global setup
+# ts-node allows us to compile & execute ts through the CLI
+npm install -g typescript ts-node
+
+#ts-node-dev -> tool to execute the project in development env
+npm install typescript ts-node-dev express @types/express 
+
+#tsc --int -> generate typescript config file
+tsc --int
